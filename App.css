@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffca28;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.faEdit, .faTrash {
+  margin: 0 10px;
+  cursor: pointer;
+}
